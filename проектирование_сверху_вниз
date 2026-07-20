@@ -1,0 +1,9 @@
+#структурное программирование - проектирование сверху-вниз
+import graphics as gr
+def build_house(window, upper_left_cornet, width):
+    """Функция, которая рисует дом"""
+    height = calculate_height(wight)
+
+window = gr.GraphWin('Russian game', 100, 100)
+build_house(window, gr.Point(100, 100), 100)
+print("Ура! Дом построен!")
